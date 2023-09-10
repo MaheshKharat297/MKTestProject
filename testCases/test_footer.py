@@ -33,6 +33,7 @@ class Test_005_verifyFooter:
         self.lp.clickLogout()
         self.driver.close()
 
+    @pytest.mark.smoke
     def test_version(self, setup):
         self.logger.info("******************* Test_005_2_Verify Version Footer *******************")
         self.driver = setup
