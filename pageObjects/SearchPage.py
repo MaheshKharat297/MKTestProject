@@ -24,6 +24,7 @@ class SearchCustomer:
     tblTable_xpath = "//table[@id='customers-grid']"
     tblTableRows_xpath = "//table[@id='customers-grid']//tbody/tr"
     tblTableColumns_xpath = "//table[@id='customers-grid']//tbody/tr/td"
+    lstExportExcel_xpath = "//li[@id='exportexcel-selected']"
 
     def __init__(self, driver):
         self.driver = driver
